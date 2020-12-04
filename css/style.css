@@ -8,28 +8,6 @@
   z-index: 100;
 }
 
-/* .header:before {
-  content: '';
-  width: 100%;
-  min-height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-image: linear-gradient(rgba(255,255,255, 0.1), rgba(34,40,49, 1));
-} */
-
-.bg-dark {
-  position: fixed;
-  z-index: 50;
-  width: 100%;
-}
-
-@media (min-width: 768px) {
-  .bg-dark {
-    background-color: red!important;
-  }
-}
-
 .navg a {
   color: #fff!important;
   font-family: sans-serif;
@@ -42,4 +20,12 @@
 .navg a:hover {
   background-color: #000;
   border-radius: 10px;
+}
+
+.fab {
+  color: #fff;
+  font-size: 2rem;
+}
+.fab:hover {
+  box-shadow: 0 5px 2px #000;
 }
