@@ -52,3 +52,14 @@
   min-width: 30vw;
   max-width: 85vw;
 }
+.headers-h {
+  margin: 2rem 0;
+}
+
+/* Services */
+.img-services {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  margin: 1rem 0;
+}
