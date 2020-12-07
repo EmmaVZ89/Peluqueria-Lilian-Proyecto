@@ -46,6 +46,9 @@
     object-fit: cover;
 }
 
-/* .carousel-inner{
- height: 200px;
-} */
+/* history */
+.history {
+  width: 30rem;
+  min-width: 30vw;
+  max-width: 85vw;
+}
