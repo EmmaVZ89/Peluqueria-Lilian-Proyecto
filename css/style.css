@@ -27,11 +27,11 @@
   border-radius: 10px;
 }
 
-.fab {
+.social {
   color: #fff;
   font-size: 2rem;
 }
-.fab:hover {
+.social:hover {
   box-shadow: 0 5px 2px #000;
 }
 
@@ -117,4 +117,25 @@
 }
 .fa-quote-right {
   margin-left: 1rem;
+}
+
+/* Location */
+.location-text h4 {
+  margin-top: 2rem;
+}
+.location-text h5{
+  margin: 3.5rem 0;
+}
+.location-icon {
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+@media (max-width: 768px) {
+  .location-text {
+    text-align: center;
+  }
+  .iframe-map {
+    padding: 0;
+    text-align: center;
+  }
 }
