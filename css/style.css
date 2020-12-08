@@ -71,21 +71,50 @@
 
 /* Our Clients */
 .carousel-container {
-  width: 70vw;
+  width: 75vw;
+  height: 20rem;
   margin: auto;
-  background-color: #000;
+  background-color: #bbb;
   color: #fff;
+  border: 2px #000 solid;
+  border-radius: 10px;
+  text-shadow: 1px 1px 1px #000;
+
 }
 .carousel-item-clients {
-  padding: 2.5rem 0;
+  padding: 1.5rem 0 2.5rem 0;
+}
+.fa-star {
+  color: gold;
+  margin: 0.5rem 0.1rem;
 }
 .carousel-item-clients img {
   max-width: 5rem;
   margin: 1rem 0;
 }
-.carousel-item-clients h5 {
-
+.carousel-item-clients a {
+  text-decoration: none;
+  color: #fff;
 }
 .carousel-item-clients p {
-
+  margin: auto;
+  max-width: 80%;
+}
+@media (max-width: 768px){
+  .carousel-container {
+    width: 100%;
+  }
+}
+.ver-mas {
+  color: #000;
+}
+.ver-mas:hover {
+  color: #888;
+  border-bottom: 1px solid #fff;
+}
+.fa-quote-left {
+  margin-right: 1rem;
+}
+.fa-quote-right {
+  margin-left: 1rem;
 }
