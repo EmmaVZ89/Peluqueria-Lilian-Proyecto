@@ -68,3 +68,24 @@
 .img-gallery {
   object-fit: cover;
 }
+
+/* Our Clients */
+.carousel-container {
+  width: 70vw;
+  margin: auto;
+  background-color: #000;
+  color: #fff;
+}
+.carousel-item-clients {
+  padding: 2.5rem 0;
+}
+.carousel-item-clients img {
+  max-width: 5rem;
+  margin: 1rem 0;
+}
+.carousel-item-clients h5 {
+
+}
+.carousel-item-clients p {
+
+}
