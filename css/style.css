@@ -72,6 +72,12 @@ html{
   object-fit: cover;
   margin: 1rem 0;
 }
+@media (max-width: 420px) {
+  .img-services {
+    width: 95%;
+    height: auto;
+  }
+}
 
 /* Gallery */
 .img-gallery {
