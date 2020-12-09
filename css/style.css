@@ -4,7 +4,6 @@
   background-color: #555;
   position: fixed;
   top: 0;
-  left: 0;
   z-index: 100;
 }
 
@@ -138,4 +137,10 @@
     padding: 0;
     text-align: center;
   }
+}
+
+/* Footer */
+.page-footer {
+  background-color: #000;
+  color: #fff;
 }
