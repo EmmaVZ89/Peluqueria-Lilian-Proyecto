@@ -83,11 +83,11 @@ html{
   width: 75vw;
   height: 20rem;
   margin: auto;
-  background-color: #bbb;
+  background-color: #ddd;
   color: #fff;
-  border: 2px #000 solid;
   border-radius: 10px;
   text-shadow: 1px 1px 1px #000;
+  box-shadow: 4px 4px 8px #ddd;
 
 }
 .carousel-item-clients {
@@ -155,14 +155,14 @@ html{
   color: #fff;
 }
 
-/* Animated Scroll */
+/* Animated Scroll up */
 .animated-scroll-up {
   opacity: 0;
-  transition: all 0.5s;
+  transition: all 1s;
 }
 
 .view-from-above {
-  animation: viewFromAbove 1s;
+  animation: viewFromAbove 0.5s;
 }
 
 @keyframes viewFromAbove{
@@ -171,5 +171,23 @@ html{
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+/* Animated Scroll right */
+.animated-scroll-right {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.view-from-right {
+  animation: viewFromRight 0.5s;
+}
+@keyframes viewFromRight {
+  0% {
+    transform: translateX(-400px);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
