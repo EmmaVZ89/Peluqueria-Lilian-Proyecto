@@ -11,11 +11,6 @@ html{
   z-index: 100;
 }
 
-.img-logo {
-  width: 8rem;
-  height: 2rem;
-}
-
 .navg a {
   color: #fff!important;
   font-family: sans-serif;
@@ -30,12 +25,24 @@ html{
   border-radius: 10px;
 }
 
-.social {
-  color: #fff;
-  font-size: 2rem;
+.logo-img {
+  width: 9rem;
 }
-.social:hover {
-  box-shadow: 0 5px 2px #000;
+.turno {
+  width: 9rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.reserva-turno {
+  color: #fff;
+  background-color: #000;
+  border-radius: 10px;
+}
+.reserva-turno:hover {
+  color: #000;
+  background-color: yellow;
+  box-shadow: 2px 2px 4px #000;
+  transition: 0.5s;
 }
 
 .h1-tag {
@@ -135,6 +142,9 @@ html{
 }
 
 /* Location */
+.location-container {
+  margin-bottom: 2rem;
+}
 .location-text h4 {
   margin-top: 2rem;
 }
@@ -159,6 +169,13 @@ html{
 .page-footer {
   background-color: #555;
   color: #fff;
+}
+.social {
+  color: #fff;
+  font-size: 2rem;
+}
+.social:hover {
+  box-shadow: 0 5px 2px #000;
 }
 
 /* Animated Scroll up */
@@ -196,4 +213,37 @@ html{
   100% {
     transform: translateX(0);
   }
+}
+
+/* Whatsapp Button */
+.wsp-title {
+  position: fixed;
+  right: 6rem;
+  bottom: 2rem;
+  color: #fff;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 1px #000;
+  z-index: 100;
+}
+.btn-wsp {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  line-height: 2.9rem;
+  bottom: 2rem;
+  right: 2rem;
+  background: #00FF07;
+  color: #fff;
+  border-radius: 3rem;
+  text-align: center;
+  font-size: 2rem;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.4);
+  z-index: 100;
+}
+.btn-wsp:hover {
+  text-decoration: none;
+  color: #00FF07;
+  background: #fff;
+  font-size: 3rem;
+  transition: 0.5s;
 }
