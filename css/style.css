@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 .header {
   width: 100%;
   min-height: 4rem;
@@ -37,6 +41,12 @@
 .h1-tag {
   margin-top: 5rem;
   text-align: center;
+}
+/* Separator */
+.separator {
+  font-size: 0.8rem;
+  margin: 3rem 0;
+  color: #999;
 }
 /* Carousel */
 .carousel-inner img {
@@ -123,7 +133,7 @@
   margin-top: 2rem;
 }
 .location-text h5{
-  margin: 3.5rem 0;
+  margin: 3rem 0;
 }
 .location-icon {
   margin-right: 1rem;
@@ -141,6 +151,25 @@
 
 /* Footer */
 .page-footer {
-  background-color: #000;
+  background-color: #555;
   color: #fff;
+}
+
+/* Animated Scroll */
+.animated-scroll-up {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.view-from-above {
+  animation: viewFromAbove 1s;
+}
+
+@keyframes viewFromAbove{
+  0% {
+    transform: translateY(60px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
