@@ -5,7 +5,7 @@ html{
 .header {
   width: 100%;
   min-height: 3rem;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.8);
   position: fixed;
   top: 0;
   z-index: 100;
@@ -15,14 +15,16 @@ html{
   color: #fff!important;
   font-family: sans-serif;
   font-size: 1.1rem;
-  padding: 10px 15px;
+  padding: 5px 15px;
   text-align: center;
   text-transform: uppercase;
+  border-radius: 10px;
 }
 
 .navg a:hover {
-  background-color: #000;
-  border-radius: 10px;
+  background-color: #fff;
+  color: #000!important;
+  transition: 0.7s;
 }
 
 .logo-img img {
