@@ -69,10 +69,9 @@ html{
 /* Carousel */
 .carousel-inner img {
   width: 100%;
-  max-height: 40rem;
+  height: 32rem;
   object-fit: cover;
 }
-
 
 /* history */
 .history {
