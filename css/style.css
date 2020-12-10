@@ -73,6 +73,7 @@ html{
   object-fit: cover;
 }
 
+
 /* history */
 .history {
   width: 30rem;
@@ -188,7 +189,7 @@ html{
 }
 @media (max-width: 420px) {
   .map-responsive {
-    padding-bottom: 56%;
+    padding-bottom: 75%;
   }
 }
 
