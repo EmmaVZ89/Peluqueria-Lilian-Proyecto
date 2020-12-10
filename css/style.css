@@ -4,7 +4,7 @@ html{
 
 .header {
   width: 100%;
-  min-height: 4rem;
+  min-height: 3rem;
   background-color: #555;
   position: fixed;
   top: 0;
@@ -30,10 +30,12 @@ html{
   height: 2rem;
 }
 
+
 .turno {
   width: 8rem;
   text-align: center;
   font-size: 0.7rem;
+  font-weight: bold;
 }
 .reserva-turno {
   color: #fff;
@@ -60,7 +62,7 @@ html{
 /* Carousel */
 .carousel-inner img {
   width: 100%;
-  max-height: 30rem;
+  max-height: 40rem;
   object-fit: cover;
 }
 
