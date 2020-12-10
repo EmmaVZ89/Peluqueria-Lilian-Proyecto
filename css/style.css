@@ -155,7 +155,22 @@ html{
   margin-right: 1rem;
   font-size: 2rem;
 }
-@media (max-width: 768px) {
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 35%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/* @media (max-width: 768px) {
   .location-text {
     text-align: center;
   }
@@ -163,7 +178,7 @@ html{
     padding: 0;
     text-align: center;
   }
-}
+} */
 
 /* Footer */
 .page-footer {
