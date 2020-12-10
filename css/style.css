@@ -30,7 +30,6 @@ html{
   height: 2rem;
 }
 
-
 .turno {
   width: 8rem;
   text-align: center;
@@ -51,7 +50,15 @@ html{
 
 .h1-tag {
   margin-top: 5rem;
+  margin-bottom: 2rem;
   text-align: center;
+}
+.h1-tag h1 {
+  font-size: 7rem;
+}
+.h1-tag h4 {
+  margin-top: -20px;
+  text-transform: uppercase;
 }
 /* Separator */
 .separator {
