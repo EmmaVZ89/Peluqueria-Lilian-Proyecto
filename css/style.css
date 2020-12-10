@@ -5,7 +5,7 @@ html{
 .header {
   width: 100%;
   min-height: 3rem;
-  background-color: #555;
+  background-color: rgba(0,0,0,0.5);
   position: fixed;
   top: 0;
   z-index: 100;
@@ -67,10 +67,15 @@ html{
   color: #999;
 }
 /* Carousel */
-.carousel-inner img {
+.carousel1-img img {
   width: 100%;
-  height: 32rem;
+  height: 35rem;
   object-fit: cover;
+}
+@media (max-width: 420px) {
+  .carousel1-img img {
+    height: 22rem;
+  }
 }
 
 /* history */
@@ -194,7 +199,7 @@ html{
 
 /* Footer */
 .page-footer {
-  background-color: #555;
+  background-color: #000;
   color: #fff;
 }
 .social {
