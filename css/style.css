@@ -72,15 +72,16 @@ html{
 /* h1 */
 .contenedor {
   position: relative;
-  height: 400px;
+  height: 25rem;
   overflow: hidden;
   margin-top: 1rem;
 }
 .parallax {
   position: absolute;
   width: 100%;
-  background-image: url(../img/portada.jpg);
+  background-image: url(../img/portada2.jpg);
   background-size: cover;
+  background-position: center;
   height: 100vh;
   z-index: -1;
 }
@@ -89,11 +90,12 @@ html{
   margin-top: 7rem;
   margin-bottom: 2rem;
   text-align: center;
+  color: #fff;
+  text-shadow: 4px 4px 2px #000;
 }
 .h1-tag h1 {
-  font-size: 7rem;
+  font-size: 8rem;
   font-family: 'Ruthie', cursive;
-  text-shadow: 1px 1px 2px #fff;
 }
 .h4-tag {
   margin-top: -20px;
@@ -102,7 +104,6 @@ html{
 }
 .h4-tag h4{
   margin-top: -10px;
-  text-shadow: 1px 1px 2px #fff;
 }
 /* Separator */
 .separator {
