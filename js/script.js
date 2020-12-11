@@ -3,6 +3,16 @@ $('.carousel').carousel({
   interval: 5000
 })
 
+// parallax
+let parallax = document.querySelector('.parallax');
+let parallax = document.querySelector('.parallax');
+
+function scrollParallax() {
+  let scrollTop = document.documentElement.scrollTop;
+  parallax.style.transform = 'translateY(' + scrollTop * -0.3 + 'px)';
+}
+window.addEventListener('scroll', scrollParallax);
+
 //Animate Scroll up
 let animateY = document.querySelectorAll(".animated-scroll-up");
 function seeScrollY() {

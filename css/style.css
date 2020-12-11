@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
 html{
   scroll-behavior: smooth;
 }
@@ -64,17 +70,37 @@ html{
 }
 
 /* h1 */
+.contenedor {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+.parallax {
+  position: absolute;
+  width: 100%;
+  background-image: url(../img/portada.jpg);
+  background-size: cover;
+  height: 100vh;
+  z-index: -1;
+}
+
 .h1-tag {
-  margin-top: 5rem;
+  margin-top: 7rem;
   margin-bottom: 2rem;
   text-align: center;
 }
 .h1-tag h1 {
   font-size: 7rem;
+  font-family: 'Ruthie', cursive;
 }
-.h1-tag h4 {
-  margin-top: -15px;
+.h4-tag {
+  margin-top: -20px;
   text-transform: uppercase;
+  font-family: 'Big Shoulders Inline Text', cursive;
+}
+.h4-tag h4{
+  margin-top: -10px;
 }
 /* Separator */
 .separator {
