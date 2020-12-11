@@ -48,12 +48,13 @@ html{
 }
 .reserva-turno {
   color: #fff;
-  background-color: #000;
+  background-color: yellow;
   border-radius: 10px;
+  color: #000;
 }
 .reserva-turno:hover {
-  color: #000;
-  background-color: yellow;
+  color: #fff;
+  background-color: #f00;
   box-shadow: 2px 2px 4px #000;
   transition: 0.5s;
 }
@@ -74,7 +75,6 @@ html{
   position: relative;
   height: 25rem;
   overflow: hidden;
-  margin-top: 1rem;
 }
 .parallax {
   position: absolute;
