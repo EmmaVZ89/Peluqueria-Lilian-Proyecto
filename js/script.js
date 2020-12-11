@@ -5,11 +5,12 @@ $('.carousel').carousel({
 
 // parallax
 let parallax = document.querySelector('.parallax');
-let parallax = document.querySelector('.parallax');
+let h1Tag = document.querySelector('.h1-tag');
 
 function scrollParallax() {
   let scrollTop = document.documentElement.scrollTop;
-  parallax.style.transform = 'translateY(' + scrollTop * -0.3 + 'px)';
+  parallax.style.transform = 'translateY(' + scrollTop * -0.5 + 'px)';
+  h1Tag.style.transform = 'translateY(' + scrollTop * 0.5 + 'px)';
 }
 window.addEventListener('scroll', scrollParallax);
 
