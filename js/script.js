@@ -10,7 +10,7 @@ let h1Tag = document.querySelector('.h1-tag');
 function scrollParallax() {
   let scrollTop = document.documentElement.scrollTop;
   parallax.style.transform = 'translateY(' + scrollTop * -0.5 + 'px)';
-  h1Tag.style.transform = 'translateY(' + scrollTop * 0.5 + 'px)';
+  h1Tag.style.transform = 'translateY(' + scrollTop * 0.9 + 'px)';
 }
 window.addEventListener('scroll', scrollParallax);
 

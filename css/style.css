@@ -93,6 +93,7 @@ html{
 .h1-tag h1 {
   font-size: 7rem;
   font-family: 'Ruthie', cursive;
+  text-shadow: 1px 1px 2px #fff;
 }
 .h4-tag {
   margin-top: -20px;
@@ -101,6 +102,7 @@ html{
 }
 .h4-tag h4{
   margin-top: -10px;
+  text-shadow: 1px 1px 2px #fff;
 }
 /* Separator */
 .separator {
