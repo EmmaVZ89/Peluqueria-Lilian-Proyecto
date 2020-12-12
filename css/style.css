@@ -11,15 +11,17 @@ html{
 .header {
   width: 100%;
   min-height: 4rem;
-  background-color: rgba(0,0,0,0.8);
+  font-weight: bolder;
+  /* background-color: rgba(255,255,255,0.8); */
+  background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.9), rgba(255,255,255,0.9), rgba(175,175,175,0.9));
   position: fixed;
   top: 0;
   z-index: 100;
 }
 
 .navg a {
-  color: #fff!important;
-  font-family: sans-serif;
+  color: #000!important;
+  font-family: 'Playfair Display', serif;
   font-size: 1.1rem;
   padding: 5px 15px;
   text-align: center;
@@ -28,14 +30,14 @@ html{
 }
 
 .navg a:hover {
-  background-color: #fff;
-  color: #000!important;
-  transition: 0.7s;
+  color: #fff!important;
+  text-shadow: 2px 2px 2px #000;
+  transition: 0.3s;
 }
 
 .logo-img img {
   width: 8rem;
-  height: 3rem;
+  height: 3.2rem;
   object-fit: cover;
 }
 
