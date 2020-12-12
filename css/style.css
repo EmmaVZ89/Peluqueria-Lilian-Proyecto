@@ -139,6 +139,9 @@ html{
 .services-text {
   text-transform: uppercase;
 }
+.h4-services {
+  margin: 1rem 0;
+}
 .img-services {
   width: 15rem;
   height: 20rem;
@@ -150,7 +153,7 @@ html{
   filter: saturate(1.4);
 }
 .img-services:hover {
-  transform: scale(1.03);
+  transform: scale(1.05);
   transition: 0.3s;
 }
 @media (max-width: 420px) {
