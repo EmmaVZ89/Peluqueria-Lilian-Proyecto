@@ -136,16 +136,27 @@ html{
 }
 
 /* Services */
+.services-text {
+  text-transform: uppercase;
+}
 .img-services {
   width: 15rem;
-  height: 15rem;
+  height: 20rem;
   object-fit: cover;
+  border-radius: 5px;
+  border: 2px solid #000;
   margin: 1rem 0;
+  box-shadow: 8px 8px 8px #000;
+  filter: saturate(1.4);
+}
+.img-services:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
 }
 @media (max-width: 420px) {
   .img-services {
     width: 95%;
-    height: auto;
+    height: 28rem;
   }
 }
 
