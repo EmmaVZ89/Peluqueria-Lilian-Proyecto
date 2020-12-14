@@ -177,7 +177,6 @@ html{
   background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.9), rgba(255,255,255,0.9), rgba(175,175,175,0.9));
   margin: auto;
   border-radius: 10px;
-  text-shadow: 1px 1px 1px #fff;
   box-shadow: 8px 4px 8px #ddd;
 
 }
@@ -187,6 +186,7 @@ html{
 .fa-star {
   color: gold;
   margin: 0.5rem 0.1rem;
+  text-shadow: 2px 2px 1px #000;
 }
 .carousel-item-clients img {
   max-width: 5rem;
@@ -194,6 +194,7 @@ html{
 }
 .carousel-item-clients a {
   text-decoration: none;
+  text-shadow: 1px 1px 2px #fff;
   color: #000;
 }
 .carousel-item-clients p {
