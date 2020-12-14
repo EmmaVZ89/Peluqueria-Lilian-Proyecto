@@ -148,9 +148,9 @@ html{
   height: 20rem;
   object-fit: cover;
   border-radius: 5px;
-  border: 2px solid #000;
+  border: 2px solid #999;
   margin: 1rem 0;
-  box-shadow: 8px 8px 8px #000;
+  box-shadow: 8px 8px 8px #999;
   filter: saturate(1.4);
 }
 .img-services:hover {
@@ -173,10 +173,12 @@ html{
 .carousel-container {
   width: 75vw;
   height: 20rem;
+  /* background-color: rgba(0,0,0,0.8); */
+  background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.9), rgba(255,255,255,0.9), rgba(175,175,175,0.9));
   margin: auto;
   border-radius: 10px;
-  text-shadow: 1px 1px 1px #000;
-  box-shadow: 4px 4px 8px #ddd;
+  text-shadow: 1px 1px 1px #fff;
+  box-shadow: 8px 4px 8px #ddd;
 
 }
 .carousel-item-clients {
@@ -192,7 +194,7 @@ html{
 }
 .carousel-item-clients a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 .carousel-item-clients p {
   margin: auto;
@@ -205,10 +207,11 @@ html{
 }
 .ver-mas {
   color: #000;
+  font-weight: bolder;
 }
 .ver-mas:hover {
-  color: #888;
-  border-bottom: 1px solid #fff;
+  color: #f88;
+  border-bottom: 1px solid #000;
 }
 .fa-quote-left {
   margin-right: 1rem;
