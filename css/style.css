@@ -3,7 +3,6 @@
 }
 body {
   margin: 0;
-  font-family: 'Playfair Display', serif;
 }
 html{
   scroll-behavior: smooth;
@@ -191,7 +190,7 @@ html{
 }
 .carousel-item-clients img {
   max-width: 5rem;
-  margin: 1rem 0;
+  margin: 0.5rem 0 1rem 0;
   border-radius: 50%;
   box-shadow: 4px 4px 4px #999;
 }
