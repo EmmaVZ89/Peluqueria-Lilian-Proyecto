@@ -280,7 +280,7 @@ html{
 /* Contact */
 .contact-container {
   background-color: rgba(200,200,200,0.2);
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 .contact-text h5{
   text-align: center;
