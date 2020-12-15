@@ -255,27 +255,13 @@ html{
 }
 
 /* Location */
-.location-container {
-  margin-bottom: 2rem;
-}
-.location-text h4 {
-  margin-top: 2rem;
-  text-align: left;
-}
-.location-text h5{
-  margin: 3rem 0;
-  text-align: left;
-}
-.location-icon {
-  margin-right: 1rem;
-  font-size: 2rem;
-}
-
 .map-responsive {
   overflow: hidden;
   padding-bottom: 35%;
   position: relative;
   height: 0;
+  border: 2px solid #000;
+
 }
 .map-responsive iframe {
   left: 0;
@@ -285,15 +271,22 @@ html{
   position: absolute;
 }
 
-@media (max-width: 768px) {
-  .location-text h4, .location-text h5{
-    text-align: center;
-  }
-}
 @media (max-width: 420px) {
   .map-responsive {
     padding-bottom: 75%;
   }
+}
+
+/* Contact */
+.contact-text h5{
+  text-align: center;
+}
+.social {
+  color: #000;
+  font-size: 2rem;
+}
+.social:hover {
+  box-shadow: 0 5px 2px #000;
 }
 
 /* Footer */
@@ -301,14 +294,6 @@ html{
   background-color: #000;
   color: #fff;
 }
-.social {
-  color: #fff;
-  font-size: 2rem;
-}
-.social:hover {
-  box-shadow: 0 5px 2px #000;
-}
-
 /* Animated Scroll up */
 .animated-scroll-up {
   opacity: 0;
