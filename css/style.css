@@ -12,7 +12,6 @@ html{
   width: 100%;
   min-height: 4rem;
   font-weight: bolder;
-  /* background-color: rgba(255,255,255,0.8); */
   background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.9), rgba(255,255,255,0.9), rgba(175,175,175,0.9));
   position: fixed;
   top: 0;
@@ -53,6 +52,7 @@ html{
   background-color: yellow;
   border-radius: 10px;
   color: #000;
+  box-shadow: 1px 1px 2px #000;
 }
 .reserva-turno:hover {
   color: #fff;
@@ -133,6 +133,7 @@ html{
 }
 .headers-h {
   margin: 2rem 0;
+  font-family: 'Playfair Display', serif;
 }
 
 /* Services */
@@ -141,7 +142,7 @@ html{
 }
 .h4-services {
   margin: 1.5rem 0 0.3rem 0;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Monoton', cursive;
 }
 .img-services {
   width: 15rem;
@@ -171,7 +172,7 @@ html{
 
 /* Our Clients */
 .carousel-container {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Old Standard TT', serif;
   width: 75vw;
   height: 20rem;
   /* background-color: rgba(0,0,0,0.8); */
