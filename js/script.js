@@ -1,7 +1,7 @@
 //Carrousel
-$('.carousel').carousel({
-  interval: 5000
-})
+// $('.carousel').carousel({
+//   interval: 5000
+// })
 
 // parallax
 let parallax = document.querySelector('.parallax');

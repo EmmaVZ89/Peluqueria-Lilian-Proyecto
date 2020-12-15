@@ -3,6 +3,7 @@
 }
 body {
   margin: 0;
+  text-align: center;
 }
 html{
   scroll-behavior: smooth;
@@ -135,6 +136,23 @@ html{
   margin: 2rem 0;
   font-family: 'Playfair Display', serif;
   text-shadow: 1px 1px 2px #555;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+.headers-h::after, .headers-h::before {
+  content: '';
+  position: absolute;
+  width: 4rem;
+  height: 2px;
+  background-color: currentColor;
+  top: 0.6em
+}
+.headers-h::after {
+  right: -5rem;
+}
+.headers-h::before {
+  left: -5rem;
 }
 
 /* Services */
