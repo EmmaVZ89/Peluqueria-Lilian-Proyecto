@@ -144,7 +144,7 @@ html{
   content: '';
   position: absolute;
   width: 4rem;
-  height: 2px;
+  height: 1px;
   background-color: currentColor;
   top: 0.6em
 }
