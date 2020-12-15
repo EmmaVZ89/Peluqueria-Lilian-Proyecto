@@ -260,8 +260,8 @@ html{
   padding-bottom: 35%;
   position: relative;
   height: 0;
-  border: 2px solid #000;
-
+  border: 2px solid #ddd;
+  box-shadow: 8px 8px 8px #ccc;
 }
 .map-responsive iframe {
   left: 0;
@@ -278,6 +278,10 @@ html{
 }
 
 /* Contact */
+.contact-container {
+  background-color: rgba(200,200,200,0.2);
+  margin-bottom: 2rem;
+}
 .contact-text h5{
   text-align: center;
 }
