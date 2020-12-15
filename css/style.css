@@ -149,6 +149,7 @@ html{
 .h4-services {
   margin: 1.5rem 0 0.3rem 0;
   font-family: 'Monoton', cursive;
+  font-weight: lighter;
 }
 .img-services {
   width: 15rem;
