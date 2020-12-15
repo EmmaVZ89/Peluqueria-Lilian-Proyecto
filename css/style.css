@@ -260,9 +260,11 @@ html{
 }
 .location-text h4 {
   margin-top: 2rem;
+  text-align: left;
 }
 .location-text h5{
   margin: 3rem 0;
+  text-align: left;
 }
 .location-icon {
   margin-right: 1rem;
@@ -284,7 +286,7 @@ html{
 }
 
 @media (max-width: 768px) {
-  .location-text {
+  .location-text h4, .location-text h5{
     text-align: center;
   }
 }
