@@ -199,12 +199,12 @@ html{
 
 /* Gallery */
 .card {
-  /* box-shadow: 6px 6px 8px #999; */
+  border: 4px solid #ddd;
 }
 .img-gallery {
   object-fit: cover;
   border-radius: 5px;
-  border: 1px solid #000;
+  border: 1px solid #ddd;
 }
 
 /* Our Clients */
