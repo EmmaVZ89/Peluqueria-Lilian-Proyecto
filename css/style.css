@@ -188,7 +188,7 @@ html{
 }
 @media (max-width: 420px) {
   .img-services {
-    width: 10rem;
+    width: 9rem;
     height: 14rem;
   }
   .h4-services {
