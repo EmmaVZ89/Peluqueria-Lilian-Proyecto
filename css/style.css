@@ -173,9 +173,6 @@ html{
   font-family: 'Monoton', cursive;
   font-weight: lighter;
 }
-.font-size {
-  font-size: 1.2rem;
-}
 .img-services {
   width: 14rem;
   height: 20rem;
@@ -193,6 +190,8 @@ html{
   .img-services {
     width: 95%;
     height: 28rem;
+  }
+  .h4-services {
   }
 }
 
