@@ -181,6 +181,7 @@ html{
   border: 2px solid #999;
   margin: 1rem 0;
   box-shadow: 8px 8px 8px #ccc;
+  filter: saturate(1.1);
 }
 .img-services:hover {
   transform: scale(1.05);
@@ -234,6 +235,8 @@ html{
   border-radius: 5px;
   border: 1px solid #ddd;
 }
+
+/* Facebook */
 
 /* Our Clients */
 .our-clients-container {
