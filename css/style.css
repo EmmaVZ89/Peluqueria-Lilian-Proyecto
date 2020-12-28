@@ -171,9 +171,13 @@ html{
   text-transform: uppercase;
 }
 .h4-services {
-  margin: 1.5rem 0 1rem 0;
+  margin: 2.5rem 0 1rem 0;
   font-family: 'Monoton', cursive;
   font-weight: lighter;
+  height: 2rem;
+}
+.keratina {
+  font-size: ;
 }
 .img-services {
   width: 14rem;
