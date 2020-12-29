@@ -139,6 +139,9 @@ html{
   min-width: 30vw;
   max-width: 85vw;
 }
+.history-p {
+  line-height: 2rem;
+}
 .headers-h {
   margin: 2rem 0;
   font-family: 'Playfair Display', serif;
