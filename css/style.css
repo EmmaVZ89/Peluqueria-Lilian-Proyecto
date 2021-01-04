@@ -347,6 +347,7 @@ html{
 .page-footer {
   background-color: #000;
   color: #fff;
+  line-height: 25px;
 }
 /* Animated Scroll up */
 .animated-scroll-up {
