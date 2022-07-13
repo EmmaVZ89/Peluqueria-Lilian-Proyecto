@@ -96,7 +96,9 @@ html{
   text-align: center;
   color: #000;
   text-shadow: 4px 4px 2px #ddd;
+  animation: titulo-h1 3s;
 }
+
 .h1-tag h1 {
   font-size: 8rem;
   font-family: 'Ruthie';
@@ -109,6 +111,7 @@ html{
 .h4-tag h4{
   margin-top: -10px;
 }
+
 /* Separator */
 .separator {
   font-size: 0.8rem;
@@ -417,4 +420,13 @@ html{
   background: #fff;
   font-size: 3rem;
   transition: 0.5s;
+}
+
+@keyframes titulo-h1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
