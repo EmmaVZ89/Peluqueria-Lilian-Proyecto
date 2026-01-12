@@ -727,6 +727,9 @@ img {
     .instagram-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+    .footer-bottom {
+        padding-bottom: 90px; /* Space for floating button */
+    }
 }
 
 @media (max-width: 480px) {
