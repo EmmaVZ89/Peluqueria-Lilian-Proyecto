@@ -296,7 +296,7 @@ img {
 .split-container {
     display: flex;
     align-items: center;
-    gap: var(--spacing-xl);
+    gap: var(--spacing-md);
 }
 
 .split-text {
@@ -447,6 +447,84 @@ img {
 
 /* 
    --------------------------------------------------------------
+   Testimonials Section
+   --------------------------------------------------------------
+*/
+.testimonial-slider-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-lg);
+    min-height: 200px; /* Menor altura mínima */
+}
+
+.testimonial-slider {
+    text-align: center;
+    overflow: hidden;
+}
+
+.testimonial {
+    display: none;
+    animation: fadeEffect 0.8s;
+}
+
+.testimonial.active {
+    display: block;
+}
+
+.testimonial .stars {
+    color: var(--color-primary);
+    font-size: 1.2rem;
+    margin-bottom: var(--spacing-xs);
+    letter-spacing: 2px;
+}
+
+.testimonial-text {
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    font-style: italic;
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-text);
+    line-height: 1.4;
+    padding: 0 1rem;
+}
+
+.client-name {
+    font-family: var(--font-body);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+    letter-spacing: 1px;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--color-text-light);
+    cursor: pointer;
+    transition: var(--transition-fast);
+    padding: 10px;
+}
+
+.prev-btn { left: 0; }
+.next-btn { right: 0; }
+
+.slider-btn:hover {
+    color: var(--color-primary);
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0; transform: translateY(10px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+/* 
+   --------------------------------------------------------------
    Instagram Section (Mock)
    --------------------------------------------------------------
 */
@@ -457,6 +535,15 @@ img {
 .instagram-header {
     margin-bottom: var(--spacing-md);
     color: var(--color-text);
+}
+
+.insta-link {
+    color: inherit;
+    transition: var(--transition-fast);
+}
+
+.insta-link:hover {
+    color: var(--color-primary);
 }
 
 .instagram-header i {
@@ -507,19 +594,20 @@ img {
 
 /* 
    --------------------------------------------------------------
-   Map Section (Full Width)
+   Map Section (Google Maps API)
    --------------------------------------------------------------
 */
 .map-section-full {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 500px; /* Fixed height for the map container */
     margin-top: var(--spacing-xl);
 }
 
-.map-section-full iframe {
-    filter: grayscale(100%) invert(92%) contrast(83%); /* Custom map style visual */
-    display: block;
+.google-map-container {
+    width: 100%;
+    height: 100%; /* Fill parent */
+    background-color: #eee; /* Placeholder color while loading */
 }
 
 .map-overlay-info {
@@ -528,6 +616,7 @@ img {
     left: 10%;
     transform: translateY(-50%);
     pointer-events: none; /* Let clicks pass through if needed, but card needs clicks */
+    z-index: 10;
 }
 
 .map-card {
@@ -715,6 +804,7 @@ img {
     .image-wrapper, .image-wrapper img {
         height: 300px; /* Shorter for mobile */
     }
+
     .section-title-left { text-align: center; }
     .map-overlay-info {
         position: relative;
