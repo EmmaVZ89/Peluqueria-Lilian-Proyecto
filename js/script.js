@@ -57,7 +57,7 @@ window.initMap = function() {
     if (!mapElement) return;
 
     // Coordenadas de Peluquería Lilian
-    const lilianLocation = { lat: -34.6073107, lng: -58.3883938 };
+    const lilianLocation = { lat: -34.6070456, lng: -58.3864188 };
 
     // Estilo personalizado
     const mapStyles = [
