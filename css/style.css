@@ -342,11 +342,13 @@ img {
     border-radius: 4px;
     overflow: hidden;
     box-shadow: var(--shadow-lg);
+    max-height: 450px; /* Limit vertical extension */
 }
 
 .image-wrapper img {
     width: 100%;
-    height: auto;
+    height: 450px; /* Fixed height to match wrapper */
+    object-fit: cover; /* Crop instead of stretching */
     display: block;
     transition: transform 0.8s ease;
 }
@@ -708,6 +710,10 @@ img {
     .split-container {
         flex-direction: column;
         text-align: center;
+        gap: var(--spacing-md);
+    }
+    .image-wrapper, .image-wrapper img {
+        height: 300px; /* Shorter for mobile */
     }
     .section-title-left { text-align: center; }
     .map-overlay-info {
